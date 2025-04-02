@@ -1,0 +1,27 @@
+.toggle-btn {
+    border-radius: 25px;
+    width: 70px;
+    height: 70px;
+    background: none;
+    border: none;
+    float: right;
+    margin-top: 250px;
+    cursor: pointer;
+    transition: all ease 0.5s;
+}
+.sidebar {
+    position: fixed;
+    background-color: #24193a5d;
+    width: 500px;
+    height: 850px;
+    top: 30px;
+    border-radius: 50px;
+    right: -500px;
+    transition: right 0.5s ease-in-out; 
+}
+.sidebar.open {
+    right: 0px;
+}
+.toggle-btn:hover {
+    background-color: #6541ac4f;
+}

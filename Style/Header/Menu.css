@@ -6,6 +6,7 @@ menu {
     margin: 0 auto;
 }
 .home, .about, .reels, .community, .brief, .blog {
+    border-radius: 20px;
     cursor: pointer;
     user-select: none;
     background: none;
