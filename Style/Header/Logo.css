@@ -1,0 +1,17 @@
+.hybrid {
+    text-transform: uppercase;
+    font-size: 52px;
+    float: left;
+    display: block;
+}
+.xperience {
+    text-transform: uppercase;
+    font-size: 35px;
+    float: left;
+    display: block;
+}
+.logo {
+    user-select: none;
+    height: 150px;
+    width: 150px;
+}
